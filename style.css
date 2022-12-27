@@ -1,0 +1,117 @@
+
+
+@font-face {
+    font-family: "iranyekan" ;
+    src: url("fonts/iranyekan/eot/iranyekanwebregular.eot?#") ,
+    url("fonts/iranyekan/ttf/iranyekanwebregular.ttf") format('truetype'),
+    url("fonts/iranyekan/woff/iranyekanwebregular.woff") format('woff'),
+    url("fonts/iranyekan/svg/iranyekanwebregular.svg") format('svg');
+}
+@font-face {
+    font-family: "iranyekan_numbers" ;
+    src: url("fonts/iranyekan_numbers/eot/iranyekanwebregular(fanum).eot?#") ,
+    url("fonts/iranyekan_numbers/ttf/iranyekanwebregular(fanum).ttf") format('truetype'),
+    url("fonts/iranyekan_numbers/woff/iranyekanwebregular(fanum).woff") format('woff'),
+    url("fonts/iranyekan_numbers/svg/iranyekanwebregular(fanum).svg") format('svg');
+}
+body{
+
+
+    font-family: 'iranyekan_numbers','iranyekan';
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.con{
+    width: 90%;
+    /*border: 1px solid darkred;*/
+    margin: 0 auto;
+    height: auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    /*border: 1px solid darkslateblue;*/
+    width:100%;
+    gap: 20px;
+    margin-top: 15px;
+    list-style: none;
+    align-items: center;
+   /* border: 1px solid darkslateblue;*/
+    justify-content: center;
+
+}
+
+.grid img{
+    max-width:100%;
+    border-radius:3px;
+}
+
+.grid li{
+    display: flex;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+   /* border: 1px solid darkslateblue;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+
+}
+
+
+.box{
+    /*border: 1px solid darkslateblue;*/
+}
+
+
+.img{
+    width: 50%;
+    height: 50%;
+   /* border: 1px solid darkslateblue;*/
+}
+
+
+
+.text {
+    margin-right: 16px;
+    position: relative;
+    right: -15px;
+}
+
+.heder{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form-select {
+    width: 15%;
+    /* border-radius: 5px; */
+    height: 28px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 3px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    flex-direction: row;
+}
+
+.bot{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 20%;
+    background-color: white;
+    border: 0;
+    border-radius: 2px;
+}
